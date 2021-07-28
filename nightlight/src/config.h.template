@@ -1,0 +1,15 @@
+#pragma once
+
+#include <string>
+
+using namespace std;
+
+// WiFi credentials
+const char *SSID = "<<REPLACEME>>";
+const char *PASSWORD = "<<REPLACEME>>";
+
+// MQTT settings
+const string ID = "<<REPLACEME>>_";
+
+const string BROKER = "test.mosquitto.org";
+const string CLIENT_NAME = ID + "nightlight_client";
